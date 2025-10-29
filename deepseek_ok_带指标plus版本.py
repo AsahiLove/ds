@@ -14,7 +14,7 @@ load_dotenv()
 # 初始化DeepSeek客户端
 deepseek_client = OpenAI(
     api_key=os.getenv('DEEPSEEK_API_KEY'),
-    base_url="https://https://api.siliconflow.cn"
+    base_url="https://api.siliconflow.cn"
 )
 
 # 初始化OKX交易所
